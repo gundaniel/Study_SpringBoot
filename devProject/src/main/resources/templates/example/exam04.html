@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exam04 문서내용</title>
+</head>
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h3>폼 데이터 출력하기</h3>
+        </div>
+        <div>
+            <p><strong>이름:</strong> <span th:text="${dto.name}">이름 출력</span></p>
+            <p><strong>나이:</strong> <span th:text="${dto.age}">나이 출력</span></p>
+        </div>
+    </div>
+</body>
+</html>
