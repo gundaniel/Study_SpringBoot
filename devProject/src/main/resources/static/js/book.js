@@ -15,10 +15,9 @@ $("#insertBtn").on("click", ()=>{
 	};
 });
 
-$("#cancleBtn").on("click",function(){
-	$("#title").val("");
-	$("#publisher").val("");
-	$("#year").val("");
-	$("#price").val("");
-	
-})     
+$("#cancleBtn").on("click",() =>{
+	$("#title").val(" ");
+	$("#publisher").val(" ");
+	$("#year").val(" ");
+	$("#price").val(" ");
+});     
